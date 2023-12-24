@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rotating Wheel by Tejas Davekar</title>
+  <meta name="description" content="Task: Create a Rotating Wheel - Web Developer Internship Application">
+  <style>
+    .wheel-container {
+      position: relative;
+      width: 200px;
+      height: 200px;
+    }
+
+    .wheel {
+      border: 50px solid transparent;
+      border-top: 50px solid red;
+      border-right: 50px solid orange;
+      border-bottom: 50px solid blue;
+      border-left: 50px solid green;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      transition: transform 1s ease-in-out;
+    }
+
+    .wheel:hover {
+      transform: rotate(360deg);
+    }
+  </style>
+</head>
+<body>
+
+<div class="wheel-container">
+  <div class="wheel"></div>
+</div>
+
+</body>
+</html>
