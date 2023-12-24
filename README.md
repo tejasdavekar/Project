@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @tejasdavekar
+- 👀 I’m interested in Web Development
+- 🌱 I’m currently learning B.Tech in E&TC
+- 📫 How to reach me : linkedin.com/in/tejas-davekar/
